@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const FormSchema = new mongoose.Schema({
   object: {
@@ -14,5 +14,5 @@ const FormSchema = new mongoose.Schema({
   },
 });
 
-const FormModel = mongoose.model('forms', FormSchema);
+const FormModel = mongoose.model("forms", FormSchema);
 module.exports = FormModel;
